@@ -64,7 +64,7 @@ class CountrySingle extends Component {
                       <div className="image-box">
                         <img
                           src={`http://openweathermap.org/img/wn/${this.state.weather.weather[0].icon}@2x.png`}
-                          alt="weather"
+                          alt={this.state.weather.weather[0]}
                         />
                       </div>
                       <div className="text-container">
